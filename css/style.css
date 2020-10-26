@@ -1,0 +1,30 @@
+#header
+{
+	background #FF00FF;
+	
+}
+
+.links
+{
+	float: right;
+}
+
+.banner_links a:link;
+{
+	color:white;
+}
+
+.banner_links a:visited;
+{
+	color:white;
+}
+
+.banner_links a:hover;
+{
+	color:white;
+}
+
+.banner_links a:active;
+{
+	color:white;
+}
