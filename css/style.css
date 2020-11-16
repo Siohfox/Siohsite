@@ -23,7 +23,6 @@
     -webkit-animation: myfirst 1s; 
 	animation: myfirst 1s;
 }
-
 @keyframes myfirst
 {
     from {opacity: 0.2,;}
