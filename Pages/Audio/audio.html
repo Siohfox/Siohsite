@@ -1,9 +1,13 @@
 <html>
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
         <script>
             function start()
             {
-                alert("hello");
+                var clip = new Audio();
+                clip.src = "Sounds/shot.wav";
+                clip.addEventListener("canplaythrough", function(){alert("Loading complete");clip.play();})
             }
         </script>
     </head>
@@ -11,3 +15,4 @@
         <input href='#' type="submit" onclick="start();"></input>
     </body>
 </html>
+
