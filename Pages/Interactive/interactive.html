@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>HTML5 Canvas</title>
+        <script>
+            function main()
+            {
+                // Get a reference to our canvas by the specified ID
+                var canvas = document.getElementById("canvas");
+                // Set the width and height
+                canvas.width = 640;
+                canvas.height = 480;
+
+                //Create the 2D drawing context
+                var ctx = canvas.getContext('2d');
+
+                //Call load for image before drawing
+                load();
+
+                //Call our draw function, passing in the context
+                draw(ctx);
+            }
+
+            function load()
+            {
+                // Allocate a new image and assing it to our previous variable
+                playerImage = new Image();
+
+                // Set the src (the path of the image). This will be loaded by the
+                // browser but may not be loaded immediately
+                playerImage.src = "player.png";
+            }
+
+            var x = 0;
+            var y = 0;
+
+            function keydown(event)
+            {
+                if(event.key == "ArrowLeft")
+                {
+                    x-= 10;
+                }
+                else if (event.key == "ArrowRight")
+                {
+                    x+= 10;
+                }
+                else if (event.key == "ArrowUp")
+                {
+                    y-= 10;
+                }
+                else if (event.key == "ArrowDown")
+                {
+                    y+= 10;
+                }
+            }
+
+            function draw(ctx)
+            {
+                // Set clear color to gray and fetch width and height from canvas
+                ctx.fillStyle = 'gray';
+                ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
+                //Set future fill color to red
+                ctx.fillStyle = 'red';
+
+                //Fill an area in top, left of canvas
+                ctx.drawImage(playerImage, 0, 0, 
+                playerImage.width / 2, playerImage.height / 2,
+                x, y, playerImage.height / 2, playerImage.height/2);
+
+                x;
+                y;
+
+                //Ask the browser to call this function again as soon as it can
+                window.requestAnimationFrame(function(){draw(ctx);});
+            }
+  
+
+            window.onload = main;
+            window.addEventListener("keydown", keydown);
+            window.addEventListener("keyup", keydown);
+        </script>
+    </head>
+    <body>
+        <canvas id="canvas" style="background: gray"></canvas>
+    </body>
+</html>
