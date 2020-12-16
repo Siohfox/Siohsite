@@ -5,9 +5,12 @@
 	font-family: sans-serif;
 }
 
-html, body
+.title
 {
-	height: 100%;
+	font-size: 18px;
+	text-align: center;
+	background: #424458;
+	top: 100%;
 }
 
 .container {
@@ -51,25 +54,6 @@ html, body
 {
 	background-color: #555;
 }
-
-	/* Fade in stuff */
-.bgfade
-{
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    -webkit-animation: myfirst 1s; 
-	animation: myfirst 1s;
-}
-@keyframes myfirst
-{
-    from {opacity: 0.2,;}
-	to {opacity: 1;}
-}
-	/* End of fade in stuff */
-	/* Doesn't currently work */
 
 .menu ul
 {

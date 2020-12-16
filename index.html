@@ -8,33 +8,7 @@
 		<link rel="shortcut icon" type="image/jpg" href="images/FoxFace.jpg"/>
 		<link rel="stylesheet" href="css/style.css">
 
-		<script>
-			//Get the button:
-			mybutton = document.getElementById("topBtn");
 
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
-
-			function scrollFunction() 
-			{
-				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
-				{
-					mybutton.style.display = "block";
-				} 
-				else
-				{
-					mybutton.style.display = "none";
-				}
-				alert("hello");
-			}
-			// When the user clicks on the button, scroll to the top of the document
-			function topFunction() 
-				{
-					document.body.scrollTop = 0; // For Safari
-					document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-				} 
-			document.body.addEventListener('scroll',()=>{alert("hello");})
-		</script>
 	</head>
 	<body>
 		<header>
@@ -43,14 +17,17 @@
 					<ul>
 						<li class="logo"><img src="images/eevee.png"> </li>
 						<li class="active"><a href="file:///C:/Users/Macaw/Desktop/www/index.html" title="This refreshes the page."><span>Home</span></a></li>
-						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/About_Me/aboutme.html" title="This refreshes the page." style="color:blue"><span>About Me</span></a></li>
-						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/CV/cv.html" title="This refreshes the page." style="color:blue"><span>CV</span></a></li>
-						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/Contact/contact.html" title="This refreshes the page." style="color:blue"><span>Contact</span></a></li>
-						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/Audio/audio.html" title="This refreshes the page." style="color:blue"><span>Audio</span></a></li>
+						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/About_Me/aboutme.html" title="This goes to About me page." style="color:blue"><span>About Me</span></a></li>
+						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/CV/cv.html" title="This goes to CV page." style="color:blue"><span>CV</span></a></li>
+						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/Contact/contact.html" title="This goes to Contact page." style="color:blue"><span>Contact</span></a></li>
+						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/Audio/audio.html" title="This goes to Audio page." style="color:blue"><span>Audio</span></a></li>
 						<li><a href="file:///C:/Users/Macaw/Desktop/www/Pages/Interactive/interactive.html" class="Fun"><span>Fun Stuff!</span></a></li>
 					</ul>
 				</div>
 			</header>
+			<div class="title">
+				<h1>HELLO</h1>
+			</div>
 				<div class="banner">
 					<div class="app-text">
 						<h1>This is a very <br>fucking long title</br></h1>
@@ -71,5 +48,31 @@
 			<button onclick="topFunction()" id="topBtn" title="Go to top">Go To Top</button>
 			<p>&#169 Siohfox 2020</p>
 		</div>
+		<script>
+			//Get the button:
+			mybutton = document.getElementById("topBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() 
+			{
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+				{
+					mybutton.style.display = "block";
+				} 
+				else
+				{
+					mybutton.style.display = "none";
+				}
+			}
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() 
+				{
+					document.body.scrollTop = 0; // For Safari
+					document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+				} 
+			document.body.addEventListener('scroll',()=>{alert("hello");})
+		</script>
 	</body>
 </html>
