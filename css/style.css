@@ -185,7 +185,6 @@ html
 {
 	width: 50%;
 	float: right;
-	
 }
 
 .top-picture img
@@ -195,6 +194,7 @@ html
 	margin-top: 0px;
 	padding-left: 0px;
 }
+
 /* End of Container */
 
 
@@ -306,4 +306,8 @@ small
 	margin: 0 20px;
 	color: #b2b2b2;
 	cursor: pointer;
+}
+
+.CenterText { 
+	text-align-last: center; 
 }
