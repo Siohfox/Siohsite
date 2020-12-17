@@ -5,6 +5,11 @@
 	font-family: sans-serif;
 }
 
+html 
+{
+	scroll-behavior: smooth;
+}
+
 /* Title placement and style */
 .title
 {
@@ -69,19 +74,37 @@
 
 
 /* Style for the header menu */
-.menu ul
+.header
 {
-	display: inline-flex;
-	margin: 50px;
-	float: left;
+	top: 0;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	position: sticky;
+	background: #2d2e3a;
+	z-index: 99;
 }
 
-.menu ul li
+.menutest ul
+{
+	display: inline-flex;
+	float: left;
+	margin-left: 50px;
+}
+
+.menutest ul li
 {
 	list-style: none;
 	margin: 0 20px;
 	color: #b2b2b2;
 	cursor: pointer;
+}
+
+.menutest ul li a:hover
+{
+	background: #111;
 }
 
 .logo img
@@ -93,7 +116,7 @@
 
 .active
 {
-	color: #ff9028 !important; 
+	color: #ffffff !important; 
 }
 
 /* Style the cool af fun button */
@@ -270,36 +293,3 @@ small
 }
 
 /* Test stuff */
-
-.header
-{
-	top: 0;
-	padding-top: 40px;
-	padding-bottom: 50px;
-	margin: 0;
-	border: 0;
-	width: 100%;
-	position: sticky;
-	background: #2d2e3a;
-	z-index: 99;
-}
-
-.menutest ul
-{
-	display: inline-flex;
-	float: left;
-	margin-left: 50px;
-}
-
-.menutest ul li
-{
-	list-style: none;
-	margin: 0 20px;
-	color: #b2b2b2;
-	cursor: pointer;
-}
-
-.menutest ul li a:hover
-{
-	background: #111;
-}
