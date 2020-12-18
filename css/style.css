@@ -54,11 +54,11 @@ html
 /* Css for the go to top button */
 #topBtn
 {
-	display: none;
+	display: none; /* don't display until scroll function happens */
 	position: fixed;
 	bottom: 60px;
 	right: 30px;
-	z-index: 99;
+	z-index: 99; /* z index high so button doesnt go under other elements */
 	font-size: 18px;
 	border: none;
 	outline: none;
@@ -89,24 +89,35 @@ html
 	z-index: 99;
 }
 
-.menutest ul
+.menu ul
 {
 	display: inline-flex;
 	float: left;
 	margin-left: 50px;
 }
 
-.menutest ul li
+.menu ul li
 {
 	list-style: none;
 	margin: 0 20px;
 	color: #b2b2b2;
 	cursor: pointer;
+	text-decoration: none;
 }
 
-.menutest ul li a:hover
+.menu ul li a:hover
 {
+	color: orange;
 	background: #111;
+}
+
+menu ul li a:active {
+	color: lightgreen;
+  }
+
+.active
+{
+	color: yellow !important; 
 }
 
 .logo img
@@ -114,11 +125,6 @@ html
 	width: 30px;
 	margin-top: -10px;
 	margin-right: 10px;
-}
-
-.active
-{
-	color: #ffffff !important; 
 }
 
 /* Style the cool af fun button */
@@ -310,6 +316,12 @@ small
 	cursor: pointer;
 }
 
+/* A class that simply centers text */
 .CenterText { 
 	text-align-last: center; 
 }
+
+/* Default fallback for links */
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:blue; }
+a:hover, a:active { text-decoration: none; color:black }
