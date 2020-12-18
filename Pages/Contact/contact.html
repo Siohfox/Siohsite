@@ -3,8 +3,9 @@
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 		<meta content="utf-8" http-equiv="encoding">
 		<title>Siohsite</title>
-		<link rel="shortcut icon" type="../../image/jpg" href="../../images/FoxFace.jpg"/>
-		<link rel="stylesheet" href="../../css/style.css">
+        <link rel="shortcut icon" type="../../image/jpg" href="../../images/FoxFace.jpg"/>
+        <link rel="stylesheet" href="contactsyle.css">
+        <link rel="stylesheet" href="../../css/style.css">
 	</head>
 	<header class="header">
 		<div class="menu">
@@ -12,27 +13,39 @@
 				<li class="logo"><img src="../../images/eevee.png"> </li>
 				<li><a href="../../index.html" title="This refreshes the page.">Home</a></li>
 				<li><a href="../../Pages/About_Me/aboutme.html" title="This goes to About me page." style="color:blue"><span>About Me</span></a></li>
-				<li><a href="../../Pages/CV/cv.html" title="This goes to CV page." style="color:blue"><span>CV</span></a></li>
+				<li><a href="../../Pages/Projects/projects.html" title="This goes to Projects page." style="color:blue"><span>Projects</span></a></li>
 				<li class="active"><a href="../../Pages/Contact/contact.html" title="This goes to Contact page." style="color:blue"><span>Contact</span></a></li>
 				<li><a href="../../Pages/Audio/audio.html" title="This goes to Audio page." style="color:blue"><span>Audio</span></a></li>
 				<li><a href="../../Pages/Interactive/interactive.html" class="Fun"><span>Fun Stuff!</span></a></li>
 			</ul>
 		</div>
 	</header>
-	<body>
-		<div style="height: 90%;" class="container">
-			<div style="padding: 20px" class="title">
-				<h1>About Me</h1>
-			</div>
-			<div style="height: 50%; top: 30%;" class="banner">
-				<div class="bannertext">
-					<h1>This is Ross' Website.</br></h1>
-					<p>On this website you will find everything<br>and everything <br>and everything<br>and everything</br> </br> </br></p>
-				</div>
-			<div style="position: static;" class="top-picture">
-				<img src="../../images/foxcave.gif" alt="This is an image of a fox but it must have broken :(">
-			</div>
-		</div>
+    <body style="background-color: #424458;">
+        <div class="bodycontainer">
+		    <div class="formcontainer">  
+                <form id="contact" action="" method="post">
+                <h4>Contact me!</h4>
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+                </form>
+            </div>
+        </div>
+        <div>
+            <img src="../../images/paperquill.png" style="width: 200px; height: 200px; margin-left: 50%;" class="CenterText">
+        </div>
 	</body>
 	<footer>
 		<div style="position: absolute;" class="footer">
