@@ -22,6 +22,7 @@ html, body
 }
   </style>
 </head>
+<!--Header with navigation-->
 <header class="header">
     <div class="menu">
         <ul>
@@ -36,6 +37,7 @@ html, body
     </div>
 </header>
     <body>
+        <!--Canvas game starts here-->
         <div class="canvasdiv">
             <canvas width="500rem" height="500rem" id="game" style="position: static;"></canvas>
             <script>
@@ -44,7 +46,7 @@ html, body
 
             var grid = 16;
             var count = 0;
-            var cherry = 0;
+            var cherryfruit = 0;
 
             var snake = {
             x: 160,
@@ -57,10 +59,10 @@ html, body
             // keep track of all grids the snake body occupies
             cells: [],
 
-            // length of the snake. grows when eating an apple
+            // find length of the snake. make it grow when eating an cherry
             maxCells: 4
             };
-            var apple = {
+            var cherry = {
             x: 320,
             y: 320
             };
@@ -82,11 +84,11 @@ html, body
             count = 0;
             context.clearRect(0,0,canvas.width,canvas.height);
 
-            // move snake by it's velocity
+            // move snake
             snake.x += snake.dx;
             snake.y += snake.dy;
 
-            // wrap snake position horizontally on edge of screen
+            // if snake goes sideways out
             if (snake.x < 0) {
                 snake.x = canvas.width - grid;
             }
@@ -94,7 +96,7 @@ html, body
                 snake.x = 0;
             }
 
-            // wrap snake position vertically on edge of screen
+            // if snake goes veritcally out
             if (snake.y < 0) {
                 snake.y = canvas.height - grid;
             }
@@ -102,7 +104,7 @@ html, body
                 snake.y = 0;
             }
 
-            // keep track of where snake has been. front of the array is always the head
+            // where is snake
             snake.cells.unshift({x: snake.x, y: snake.y});
 
             // remove cells as we move away from them
@@ -110,9 +112,9 @@ html, body
                 snake.cells.pop();
             }
 
-            // draw apple
+            // draw cherry
             context.fillStyle = 'red';
-            context.fillRect(apple.x, apple.y, grid-1, grid-1);
+            context.fillRect(cherry.x, cherry.y, grid-1, grid-1);
 
             // draw snake one cell at a time
             context.fillStyle = 'lightgreen';
@@ -121,15 +123,15 @@ html, body
                 // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
                 context.fillRect(cell.x, cell.y, grid-1, grid-1);
 
-                // snake ate apple
-                if (cell.x === apple.x && cell.y === apple.y) {
+                // snake ate cherry
+                if (cell.x === cherry.x && cell.y === cherry.y) {
                 snake.maxCells++;
-                cherry++;
-                document.getElementById("cherrycount").innerHTML = cherry;
+                cherryfruit++;
+                document.getElementById("cherryfruitcount").innerHTML = cherryfruit;
 
                 // canvas is 400x400 which is 25x25 grids
-                apple.x = getRandomInt(0, 25) * grid;
-                apple.y = getRandomInt(0, 25) * grid;
+                cherry.x = getRandomInt(0, 25) * grid;
+                cherry.y = getRandomInt(0, 25) * grid;
                 }
 
                 // check collision with all cells after this one (modified bubble sort)
@@ -143,39 +145,35 @@ html, body
                     snake.maxCells = 4;
                     snake.dx = grid;
                     snake.dy = 0;
-                    cherry = 0;
-                    document.getElementById("cherrycount").innerHTML = cherry;
+                    cherryfruit = 0;
+                    document.getElementById("cherryfruitcount").innerHTML = cherryfruit;
 
-                    apple.x = getRandomInt(0, 25) * grid;
-                    apple.y = getRandomInt(0, 25) * grid;
+                    cherry.x = getRandomInt(0, 25) * grid;
+                    cherry.y = getRandomInt(0, 25) * grid;
                 }
                 }
             });
             }
 
-            // listen to keyboard events to move the snake
             document.addEventListener('keydown', function(e) {
-            // prevent snake from backtracking on itself by checking that it's
-            // not already moving on the same axis (pressing left while moving
-            // left won't do anything, and pressing right while moving left
-            // shouldn't let you collide with your own body)
+            // prevents self collision
 
-            // left arrow key
+            // left arrow
             if (e.which === 37 && snake.dx === 0) {
                 snake.dx = -grid;
                 snake.dy = 0;
             }
-            // up arrow key
+            // up arrow
             else if (e.which === 38 && snake.dy === 0) {
                 snake.dy = -grid;
                 snake.dx = 0;
             }
-            // right arrow key
+            // right arrow
             else if (e.which === 39 && snake.dx === 0) {
                 snake.dx = grid;
                 snake.dy = 0;
             }
-            // down arrow key
+            // down arrow
             else if (e.which === 40 && snake.dy === 0) {
                 snake.dy = grid;
                 snake.dx = 0;
@@ -197,7 +195,7 @@ html, body
         <div>
             <p class="CenterText">Snake game!</p>
             <p class="CenterText">Use arrow keys to collect cherries!</p>
-            <p style="font-size: large; color: red;" class="CenterText">Cherries collected: <span style="color: green;" id="cherrycount"> 0 </span></p> 
+            <p style="font-size: large; color: red;" class="CenterText">Cherries collected: <span style="color: green;" id="cherryfruitcount"> 0 </span></p> 
         </div>
     </body>
     <footer>
