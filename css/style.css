@@ -21,7 +21,8 @@ html
 	top: 100%;
 	color: white;
 	float: top;
-	position: static;
+	position: relative;
+	top: auto;
 }
 
 .title h1
@@ -117,7 +118,23 @@ menu ul li a:active {
 
 .active
 {
-	color: yellow !important; 
+	background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red) !important;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: rainbow_animation 6s ease-in-out infinite;
+}
+
+/* my attempts at animation are futile */
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
 
 .logo img
@@ -302,10 +319,16 @@ small
 
 /* Social links */
 
+.social-links
+{
+	margin-left: 40%;
+}
+
 .social-links ul
 {
 	display: inline-flex;
-	margin-left: 40%;
+	margin: 15px auto;
+	text-align: center;
 }
 
 .social-links ul li
@@ -319,6 +342,15 @@ small
 /* A class that simply centers text */
 .CenterText { 
 	text-align-last: center; 
+}
+
+.canvasdiv
+{
+	background: #424458;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	
 }
 
 /* Default fallback for links */
