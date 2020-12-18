@@ -6,67 +6,79 @@
 		<link rel="shortcut icon" type="image/jpg" href="images/FoxFace.jpg"/>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
+	<!--Header with navigation-->
 	<header class="header">
-		<div class="menutest">
+		<div class="menu">
 			<ul>
 				<li class="logo"><img src="images/eevee.png"> </li>
 				<li class="active"><a href="index.html" title="This refreshes the page."><span>Home</span></a></li>
-				<li><a href="Pages/About_Me/aboutme.html" title="This goes to About me page." style="color:blue"><span>About Me</span></a></li>
-				<li><a href="Pages/CV/cv.html" title="This goes to CV page." style="color:blue"><span>CV</span></a></li>
-				<li><a href="Pages/Contact/contact.html" title="This goes to Contact page." style="color:blue"><span>Contact</span></a></li>
-				<li><a href="Pages/Audio/audio.html" title="This goes to Audio page." style="color:blue"><span>Audio</span></a></li>
+				<li><a href="Pages/About_Me/aboutme.html" title="This goes to About me page."><span>About Me</span></a></li>
+				<li><a href="Pages/CV/cv.html" title="This goes to CV page."><span>CV</span></a></li>
+				<li><a href="Pages/Contact/contact.html" title="This goes to Contact page."><span>Contact</span></a></li>
+				<li><a href="Pages/Audio/audio.html" title="This goes to Audio page."><span>Audio</span></a></li>
 				<li><a href="Pages/Interactive/interactive.html" class="Fun"><span>Fun Stuff!</span></a></li>
 			</ul>
 		</div>
 	</header>
 	<body>
+		<!--Container for main content of page-->
 		<div class="container">
 			<div style="padding-bottom: 30px; padding-top: 30px; margin-right: 20%; margin-left: 20%;">
 				<marquee direction="scroll">I see you there. Welcome to my website! Grab a cuppa and have a look around</marquee>
 			</div>
+			<!--Title placed first for main show text-->
 			<div class="title">
 				<h1>Welcome to my website!</h1>
 			</div>
+			<!--Banner for seperating the text and pictures into movable blocks-->
 			<div class="banner">
 				<div class="bannertext">
 					<h1>This is Ross' Website.</br></h1>
 					<p>On this website you will find everything about me<br>and all the projects I am working on currently<br>or have completed in the past.<br>Click the button below to view my current projects</br></br></br></p>
+					<!--Play button needs seperate inside for an image button-->
 					<div class="play-btn">
 						<div class="play-btn-inner">
 							<a href="Pages/Projects/projects.html"><img src="images/playbutton.png" alt="playbutton"></a>
 						</div>
+							<!--Small used for fancy font type-->
 							<small><b>CLICK HERE</b></small>
 					</div>
 				</div>
+				<!--Picture divided into a 'top picture' type to have different float elements to bottom picture-->
 				<div class="top-picture">
 					<img src="images/foxcave.gif" alt="This is an image of a fox but it must have broken :(">
 					<p style="color:rgb(153, 142, 142);" class="CenterText">Image not owned by me</p>
 				</div>
 			</div>
-			<!--Second banner-->
+			<!--Second banner because it uses a different style layout-->
 			<div class="bannertwo">
 				<div class="bannertextbottom">
 					<h1>Hey look a sylveon.</br></h1>
 					<p>Isn't that just cute?<br></br></p>
 				</div>
+				<!--Picture divided into a 'bottom picture' type to have different float elements to top picture-->
 				<div class="bottom-picture">
 					<img src="images/peek.gif" alt="This is an image of a fox but it must have broken :(">
+					<p style="color:rgb(153, 142, 142);" class="CenterText">Image not owned by me</p>
 				</div>
 			</div>
 		</div>
+		<!--Main body container closure-->
 	</body>
 	<footer>
+		<!--Footer seperated from body to be always at bottom of webpage, adaptable-->
 		<div class="footer">
 			<div class="social-links">
 				<ul>
-					<li>Box #1</li>
-					<li>Box #2</li>
-					<li>Box #3</li>
+					<li>Twitter</li>
+					<li>Facebook</li>
+					<li>Reddit</li>
 				</ul>
 			</div>
 			<button onclick="topFunction()" id="topBtn" title="Go to top">Go To Top</button>
 			<p style="padding-left: 10px; color:orange">&#169 Siohfox 2020</p>
 		</div>
+		<!--Javascript in seperate file for cleaner code-->
 		<script src="javascript/scrollbutton.js"></script>
 	</footer>
 </html>
