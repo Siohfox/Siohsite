@@ -1,18 +1,45 @@
 <html>
-    <head>
-        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-        <meta content="utf-8" http-equiv="encoding">
-        <script>
-            function start()
-            {
-                var clip = new Audio();
-                clip.src = "Sounds/shot.wav";
-                clip.addEventListener("canplaythrough", function(){alert("Loading complete");clip.play();})
-            }
-        </script>
-    </head>
-    <body>
-        <input href='#' type="submit" onclick="start();"></input>
-    </body>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>Siohsite</title>
+		<link rel="shortcut icon" type="../../image/jpg" href="../../images/FoxFace.jpg"/>
+        <link rel="stylesheet" href="../../css/style.css">
+        <script src="../../javascript/audio.js"></script>
+	</head>
+	<header class="header">
+		<div class="menu">
+			<ul>
+				<li class="logo"><img src="../../images/eevee.png"> </li>
+				<li><a href="../../index.html" title="This refreshes the page.">Home</a></li>
+				<li><a href="../../Pages/About_Me/aboutme.html" title="This goes to About me page." style="color:blue"><span>About Me</span></a></li>
+				<li><a href="../../Pages/CV/cv.html" title="This goes to CV page." style="color:blue"><span>CV</span></a></li>
+				<li><a href="../../Pages/Contact/contact.html" title="This goes to Contact page." style="color:blue"><span>Contact</span></a></li>
+				<li class="active"><a href="../../Pages/Audio/audio.html" title="This goes to Audio page." style="color:blue"><span>Audio</span></a></li>
+				<li><a href="../../Pages/Interactive/interactive.html" class="Fun"><span>Fun Stuff!</span></a></li>
+			</ul>
+		</div>
+	</header>
+	<body>
+        <div style="height: 90%;" class="container">
+			<div style="padding: 20px" class="title">
+                <h1>Audio</h1>
+			</div>
+			<div style="height: 50%; top: 30%;" class="banner">
+				<div style="padding: 200px; width: auto; margin-left: 20rem;" class="bannertext">
+					<input href='#' type="submit" onclick="playsound();" value="Click here to play Music!"></input>
+				</div>
+			<div style="position: static; width: 30%; height: 30%;" class="top-picture">
+                <img src="../../images/audioimage.png" alt="This is an image of a fox but it must have broken :(">
+                <p style="color:rgb(153, 142, 142);" class="CenterText">Image not owned by me</p>
+			</div>
+        </div>
+    <script src="javascript/audio.js"></script>
+	</body>
+	<footer>
+		<div style="position: absolute;" class="footer">
+			<button onclick="topFunction()" id="topBtn" title="Go to top">Go To Top</button>
+			<p style="padding-left: 10px;">&#169 Siohfox 2020</p>
+		</div>
+	</footer>
 </html>
-
