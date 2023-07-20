@@ -137,9 +137,32 @@ menu ul li a:active {
     }
 }
 
+/* CSS animation for scrolling text */
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-text {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    overflow: hidden;
+}
+
+.scrolling-text p {
+    animation: scroll 15s linear infinite; /* Adjust the animation duration as needed */
+    white-space: nowrap;
+}
+
 .logo img
 {
-	width: 30px;
+	max-width: 30px;
 	margin-top: -10px;
 	margin-right: 10px;
 }
@@ -181,6 +204,7 @@ menu ul li a:active {
 	position: absolute;
 	color: white;
 	background-color: #424458;
+
 }
 
 .bannertext

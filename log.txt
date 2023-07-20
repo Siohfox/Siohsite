@@ -1,0 +1,395 @@
+commit 16a972b5b7d3b2e139f15f7075779f7cd895a3eb
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 03:25:33 2020 +0000
+
+    added comments for easier navigation
+
+commit de056aac733454ebc1086cf27e643d47aad41bbe
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 03:12:59 2020 +0000
+
+    updated picture placement
+
+commit 07aa9aa275c5c07a55b76e52112c49dd90a763bb
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 03:11:51 2020 +0000
+
+    made pic smaller
+
+commit 2f8f11bb2aa35a0e855e9d376a4cca6d1e4aab84
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 03:09:39 2020 +0000
+
+    updated footer to orange
+
+commit 21f33ecb52ee16dc08404192229b11c5d9c2bbc5
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 03:08:06 2020 +0000
+
+    gave social links a link
+
+commit de23c2d0b51aec05fb0bd914741d2d1ff7894fc4
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 03:07:46 2020 +0000
+
+    updated colour of snek
+
+commit e32d3d16ad179cd41c25dcd14a1af4e46f1f2d86
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:57:28 2020 +0000
+
+    added bold text
+
+commit 526e99c50e679035b19397c09eb2c9b973117b4d
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:54:57 2020 +0000
+
+    updated text for button
+
+commit 7c71eb6ead4ad87860dc0af099575897e4256fe0
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:53:56 2020 +0000
+
+    updated style
+
+commit f1cf8cb797c95c567d5aa244ec8a10f6f4282a5f
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:53:29 2020 +0000
+
+    replaced CV with Projects
+
+commit 16e6ae60f52635ef03e52924d152e28d3288b773
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:53:17 2020 +0000
+
+    replaced CV with Projects
+
+commit bd0653b06a2ebe404352e986a4c270f9caa657c2
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:52:53 2020 +0000
+
+    updated audio page
+
+commit 0e7232196b8573e9a8274ef3ec049691bab3ee49
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:52:00 2020 +0000
+
+    replaced cv with project page
+
+commit 79124d74ac11f095af465164ea5ff31edd871c7a
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:51:34 2020 +0000
+
+    updated contact to have a form!
+
+commit a2482b5160797b7ec12459bada361bf191f1d439
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 02:51:00 2020 +0000
+
+    updated about me
+
+commit 51e687026479be291c79e9edc732ec7b311c7fa6
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:59:14 2020 +0000
+
+    updated canvas size to fit on smaller screens
+
+commit a31bf1331ba3bd03ea25ff94179797cf9bdd41a9
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:56:35 2020 +0000
+
+    fixed footer again
+
+commit 5c457f847bb3e9052c3b891ecd85b5cb1db4b3fa
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:55:19 2020 +0000
+
+    fixed footer
+
+commit 2164b0e5685068ae771da575975e414d46206b8d
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:54:33 2020 +0000
+
+    removed plater image
+
+commit d39289030de9d9259a68a55ca12d97efd1ba4fc5
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:54:19 2020 +0000
+
+    updated canvas
+
+commit 98156b3f8050b6c0b0e9968a0f8e146b1ae64f44
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:54:03 2020 +0000
+
+    added music
+
+commit cf17eb952df88a39b9ec28c9c1b69e90ea8ac049
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:38:49 2020 +0000
+
+    updated style
+
+commit e967994eb72c1286ba03db4f9ba9f446345f7f79
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:38:17 2020 +0000
+
+    updated snake game + counter
+
+commit 52753eb7eebef8be339fb6a7a93776ddcf15bc2d
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:38:00 2020 +0000
+
+    updated contact page
+
+commit fc4fb4190df5c0b03e47837fe20d2e3bbca285f0
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:37:43 2020 +0000
+
+    updated cv
+
+commit 2e34dc3056037e9f5d72b0e5bfac6520a38378bc
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 01:37:25 2020 +0000
+
+    Audio in seperate js and added icon
+
+commit 18ad54129f7186db5728861fef909bf5329714c9
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 00:06:45 2020 +0000
+
+    Updated to be proper snake canvas game
+
+commit 464d1db86d87af967e73b8251d8679109713ff46
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 00:06:26 2020 +0000
+
+    Updated to have consistent header/footer
+
+commit 41513f45f0a4b7ce46c4fea325c3ca97f5ec29d0
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 00:05:51 2020 +0000
+
+    updated style to match new aboutme
+
+commit 8aac2c967780712cc426d7b4239851f1b2a4914a
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 00:05:28 2020 +0000
+
+    Stylized page properly
+
+commit 0c7ff1d204726c2345a421b0bda5058baedf9094
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 18 00:05:11 2020 +0000
+
+    Added overhaul for comments
+
+commit 29fed93195cb885a677136794f86ab9b9a9cb9a9
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 23:08:47 2020 +0000
+
+    updated main html style
+
+commit 293e66321eb265ca71523819f00c922793202e34
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 23:08:26 2020 +0000
+
+    fixed typo
+
+commit 486d2c49afc5c5dc22fdecbc1fe905e5dae7023d
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 18:45:08 2020 +0000
+
+    small text changes
+
+commit a85135c0ce27ae29062ba699e1ac377ad1846dc5
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 17:40:42 2020 +0000
+
+    updated button for projects
+
+commit 44d6f502278fad6c7b63e5ae8b331ca0c6259ea6
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 17:40:19 2020 +0000
+
+    extra image
+
+commit 39d9df48ac0fad8d79acd6f60f28c36c23fe9938
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 17:40:05 2020 +0000
+
+    Added projects page
+
+commit 33fa81411e50fab76c307205d3a23a86c86f4fff
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 17:18:30 2020 +0000
+
+    updated scroll to smooth
+
+commit 0c55d751144aaf7ff98d09a9c8c5d1259512f9ed
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 16:37:17 2020 +0000
+
+    refactored javascript into its own file
+
+commit 05c0fab35aaec1feb8d041726b8da0f0a12555f3
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 16:09:05 2020 +0000
+
+    reformatted for new design
+
+commit ee58cb6b10ca0b6029912c2885ce637c36f881d6
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Thu Dec 17 16:08:35 2020 +0000
+
+    Remade interior design
+
+commit 9fa1bffcb2cb611945a204cb3ad78c9c990d99da
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Wed Dec 16 23:43:22 2020 +0000
+
+    fixed button more, small changes
+
+commit 1cb7a1e915a05658ed065cc27824b9c15dfe5ecd
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Wed Dec 16 23:20:09 2020 +0000
+
+    removed bgfade added totop button working
+
+commit eb022583a44bf3fc70ecafbe1490c587ebbf601c
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Wed Dec 16 00:29:45 2020 +0000
+
+    Added totop button javascript
+
+commit 607bd9b9a75f381aedd0f654a637e9846d025351
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Tue Dec 15 23:59:09 2020 +0000
+
+    Added canvas with interactives
+
+commit 08149af29279b02f2d45fbe8590b1fad227bdd40
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Tue Dec 15 22:30:12 2020 +0000
+
+    small updates
+
+commit c04df5080d34cbc240111fb816374c4073cb3130
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Tue Dec 15 22:07:49 2020 +0000
+
+    added website sketch that i forgot
+
+commit a1a666d632aeabaa82b19a21ad7cb4f7044b5945
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Tue Dec 15 21:54:40 2020 +0000
+
+    currently working status
+
+commit 853643f773659278cdfed5ca077ad4b4eb4e4a1f
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Tue Dec 15 21:33:24 2020 +0000
+
+    fixed footer
+
+commit cac3557066e3f369a31c51cd9178c46263ca3b74
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Dec 14 23:09:13 2020 +0000
+
+    small changes
+
+commit f0857eae341feae7e2e70cbb1e772a8b384b8efa
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sun Dec 13 23:47:04 2020 +0000
+
+    updated some stuff
+
+commit 153577eed89490d9be4054c80aff34de9b50c5dc
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sat Dec 12 23:46:33 2020 +0000
+
+    Updated readme
+
+commit 5cae523642fd0f4d6431ea908720be78b9662bd2
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 11 10:57:31 2020 +0000
+
+    Edited source header slightly
+
+commit cee1bd79926018c1bdbfdc8a056f31d915e04b04
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Fri Dec 11 10:37:01 2020 +0000
+
+    Added src and other files
+
+commit 2c85183ecce44eaf6448c37fdd356028ccf6387b
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Dec 7 22:46:16 2020 +0000
+
+    added new pages
+
+commit 26dec76e72466dd7949f09e1943da9cb7c8a4b0d
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Nov 16 18:06:51 2020 +0000
+
+    lab work on audio
+
+commit 4a5a11c6b542ba01407e15154fd4bab59252a55e
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Nov 16 16:30:26 2020 +0000
+
+    I do not own these images
+
+commit 10b92df131780f9dacfb9230bcefe3451f916772
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Nov 16 16:17:06 2020 +0000
+
+    Audio page and link
+
+commit 63cf3ed63ee5df80118b4d68cce4cc3be258802f
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Nov 16 15:56:54 2020 +0000
+
+    fade changes
+
+commit fe21609220e42e338fbf2d15f39190cc6ac8969b
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sun Nov 15 22:29:25 2020 +0000
+
+    updated majority
+
+commit 41b6800ce528011bd7ada3f5e8aa009c9d958cfc
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sun Nov 15 20:45:30 2020 +0000
+
+    Finally a brand new updoot
+
+commit 55271bebe9f3a783837702d59dcc6631ee7f970b
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sun Nov 15 18:37:35 2020 +0000
+
+    code erased
+
+commit 1c4e21f1031745f2997bb5db9defb2593f698180
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sun Nov 15 18:30:41 2020 +0000
+
+    Updated readme
+
+commit 658080eb38acc323bb1f4411952732353f88357e
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Sun Nov 15 18:29:04 2020 +0000
+
+    random update
+
+commit ce5a5559e8dbb1c1adc768e7831ee408962f6e2b
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Oct 26 21:44:11 2020 +0000
+
+    First Commit
+
+commit 0ab526a95b690b1ebafca625c6f67aec5006bc90
+Author: Siohfox <72400408+Siohfox@users.noreply.github.com>
+Date:   Mon Oct 26 21:41:23 2020 +0000
+
+    Initial commit
