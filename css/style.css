@@ -369,6 +369,11 @@ small
 	
 }
 
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  /* Add your mobile-specific styles here */
+}
+
 /* Default fallback for links */
 a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:blue; }
