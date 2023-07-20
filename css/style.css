@@ -15,7 +15,8 @@ html
 /* Title placement and style */
 .title
 {
-	font-size: 32px;
+	font-size: 1.8vw;
+	padding-bottom: 20px;
 	text-align: center;
 	background: #424458;
 	top: 100%;
@@ -35,7 +36,7 @@ html
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 200%;
+	min-height: 100vh;
 	background: #424458;
 }
 
@@ -195,108 +196,60 @@ menu ul li a:active {
 }
 
 /* Container for image and text */
-.banner
-{
-	width: 80%;
-	height: 70%;
-	top: 55%;
-	left: 130px;
-	position: absolute;
-	color: white;
-	background-color: #424458;
-
+.banner-container {
+  width: 80%;
+  position: relative;
+  color: white;
+  background-color: #424458;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto 50px;
 }
 
-.bannertext
-{
-	width: 50%;
-	float: left;
+.bannertext {
+  flex-basis: 50%;
 }
 
-.bannertext h1
-{
-	font-size: 42px;
-	width: 640px;
-	position: relative;
-	margin-left: 40px;
+.bannertext h1 {
+  font-size: 2.5vw;
+  max-width: 100%;
+  margin-left: 5%;
 }
 
-.bannertext p
-{
-	width: 650px;
-	font-size: 15px;
-	margin: 30px 0 30px 40px;
-	line-height: 25px;
-	color: grey;
+.bannertext p {
+  font-size: 1.2vw;
+  width: 80%;
+  margin: 30px 0 30px 5%;
+  line-height: 1.5;
+  color: grey;
 }
 
-.top-picture 
-{
-	width: 50%;
-	float: right;
+.top-picture,
+.bottom-picture {
+  flex-basis: 40%;
 }
 
-.top-picture img
+.top-picture img,
+.bottom-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutmeimg
 {
-	position: relative;
-	width: 100%;
-	margin-top: 0px;
-	padding-left: 0px;
+	flex-basis: 40%;
+}
+
+.aboutmeimg img
+{
+  width: 70%;
+  height: auto;
 }
 
 /* End of Container */
 
-
-/* Container for second image and text */
-.bannertwo
-{
-	width: 80%;
-	height: 70%;
-	top: 130%;
-	left: 130px;
-	position: absolute;
-	color: white;
-	background-color: #424458;
-}
-
-.bannertextbottom
-{
-	width: 50%;
-	float: right;
-}
-
-.bannertextbottom h1
-{
-	font-size: 42px;
-	width: 640px;
-	position: relative;
-	margin-left: 40px;
-}
-
-.bannertextbottom p
-{
-	width: 650px;
-	font-size: 15px;
-	margin: 30px 0 30px 40px;
-	line-height: 25px;
-	color: grey;
-}
-
-.bottom-picture 
-{
-	width: 50%;
-	float: left;
-	
-}
-
-.bottom-picture img
-{
-	position: relative;
-	width: 100%;
-	margin-top: 0px;
-	padding-left: 0px;
-}
-/* End of Second Container */
 
 .play-btn 
 {
