@@ -15,7 +15,6 @@
 				<li class="active"><a href="../../Pages/About_Me/aboutme.html" title="This goes to About me page." style="color:blue"><span>About Me</span></a></li>
 				<li><a href="../../Pages/Projects/projects.html" title="This goes to Projects page." style="color:blue"><span>Projects</span></a></li>
 				<li><a href="../../Pages/Contact/contact.html" title="This goes to Contact page." style="color:blue"><span>Contact</span></a></li>
-				<li><a href="../../Pages/Audio/audio.html" title="This goes to Audio page." style="color:blue"><span>Audio</span></a></li>
 				<li><a href="../../Pages/Interactive/interactive.html" class="Fun"><span>Fun Stuff!</span></a></li>
 			</ul>
 		</div>
@@ -42,10 +41,19 @@
 	</body>
 	<!--Consistent Footer-->
 	<footer>
-		<div style="position: absolute;" class="footer">
+		<!--Footer seperated from body to be always at bottom of webpage, adaptable-->
+		<div class="footer">
+			<div class="social-links">
+				<ul>
+					<li><a href="https://twitter.com/">Twitter</a></li>
+					<li><a href="https://en-gb.facebook.com/">Facebook</a></li>
+					<li><a href="https://www.reddit.com/">Reddit</a></li>
+				</ul>
+			</div>
 			<button onclick="topFunction()" id="topBtn" title="Go to top">Go To Top</button>
 			<p style="padding-left: 10px; color:orange">&#169 Siohfox 2020</p>
 		</div>
-		<script src="../../javascript/scrollbutton.js"></script>
+		<!--Javascript in seperate file for cleaner code-->
+		<script src="javascript/scrollbutton.js"></script>
 	</footer>
 </html>
